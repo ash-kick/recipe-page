@@ -1,12 +1,26 @@
+@font-face {
+    font-family: 'Young Serif'; /* Your chosen name for the font */
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Outfit'; /* Your chosen name for the font */
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400, 600, 700;
+}
+
 body, html {
     background-color: hsl(30, 54%, 90%);
     font-size: 16px;
+    font-family: 'Outfit';
 }
 
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    font-family: 'Young Serif';
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
