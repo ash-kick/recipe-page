@@ -8,15 +8,14 @@
     src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
 }
 
-body, html {
+
+html, body {
     background-color: hsl(30, 54%, 90%);
     font-size: 16px;
     font-family: 'Outfit', Arial, Helvetica, sans-serif;
     color: hsl(30, 10%, 34%);
     font-weight: 400;
     line-height: 1.8;
-    margin: 0;
-    padding:0;
 }
 
 main {
@@ -24,6 +23,7 @@ main {
     display: flex;
     flex-direction:column;
     justify-content: center;
+    justify-self: center;
 }
 
 img {
@@ -42,7 +42,7 @@ h1 {
     background-color: hsl(330, 100%, 98%);
     padding: 3%;
     line-height: 2;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .preparation-time h2 {
@@ -99,6 +99,7 @@ tr + tr {
     text-align: center;
     font-family: 'Young Serif', serif;
     margin: 20px;
+    background-color: hsl(0, 0%, 100%);
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
@@ -126,13 +127,14 @@ tr + tr {
 @media (min-width: 1440px)
 {
     main {
-        max-width: 40%;
+        max-width: 50%;
         justify-self: center;
-        border-radius: 10px;
+        border-radius: 20px;
         padding: 3%;
-        margin: 6%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
     img {
-        border-radius: 10px;
+        border-radius: 20px;
     }
 }
