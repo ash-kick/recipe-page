@@ -58,6 +58,11 @@ h3 {
     font-size: 26px;
 }
 
+hr {
+    border: .1px solid hsla(32, 10%, 34%);
+    width: 100%;
+}
+
 ol, ul {
     padding-left: 5%;
 }
@@ -83,12 +88,6 @@ table strong {
 tr + tr {
     border-top: .1px solid hsl(30, 10%, 34%); /* Adds a line between rows */
     line-height: 2;
-}
-
-
-hr {
-    border: .1px solid hsla(32, 10%, 34%);
-    width: 100%;
 }
 
 .attribution {
