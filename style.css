@@ -43,7 +43,7 @@ h1 {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .preparation-time {
@@ -142,8 +142,8 @@ tr + tr {
 @media (min-width: 1440px)
 {
     main {
-        max-width: 50%;
-        align-self: center;
+        max-width: 45%;
+        margin: auto;
         border-radius: 20px;
         padding: 3% 3% 2%;
         margin-top: 8%;
