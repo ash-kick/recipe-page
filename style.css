@@ -1,19 +1,20 @@
 @font-face {
     font-family: 'Young Serif'; /* Your chosen name for the font */
     src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
-    font-weight: 400;
 }
 
 @font-face {
     font-family: 'Outfit'; /* Your chosen name for the font */
     src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
-    font-weight: 400, 600, 700;
 }
 
 body, html {
     background-color: hsl(30, 54%, 90%);
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Outfit', Arial, Helvetica, sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    line-height: 1.8;
 }
 
 main {
@@ -21,6 +22,7 @@ main {
     display: flex;
     flex-direction:column;
     justify-content: center;
+    padding: 5%;
 }
 
 img {
@@ -30,20 +32,63 @@ img {
 
 h1 {
     font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
 }
 
 .preparation-time {
     background-color: hsl(330, 100%, 98%);
-    margin: 5%;
     padding: 3%;
+    line-height: 2;
 }
 
 .preparation-time h2 {
     font-family: 'Outfit', Arial, Helvetica, sans-serif;
     font-weight: normal;
+    font-size: 20px;
     color: hsl(332, 51%, 32%);
     margin-left: 3%;
     margin-top: 0;
+    line-height: 1;
+}
+
+h3 {
+    font-family: 'Young Serif', serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 26px;
+}
+
+ol, ul {
+    padding-left: 5%;
+}
+
+li {
+    padding-left: 20px; /* Space between bullet and text */
+}
+
+ol li::marker {
+    color:hsl(14, 45%, 36%)
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+table strong {
+    color:hsl(14, 45%, 36%);
+}
+
+tr + tr {
+    border-top: .1px solid hsl(30, 10%, 34%); /* Adds a line between rows */
+    line-height: 2;
+}
+
+
+hr {
+    border: .1px solid hsla(32, 10%, 34%);
+    width: 100%;
 }
 
 .attribution {
@@ -60,5 +105,8 @@ h1 {
 {
     .preparation-time ul li::marker {
         color: hsl(332, 51%, 32%);
+    }
+    .ingredients ul li::marker {
+        color: hsl(14, 45%, 36%);
     }
 }
