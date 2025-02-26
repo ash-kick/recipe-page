@@ -145,7 +145,7 @@ tr + tr {
         max-width: 50%;
         align-self: center;
         border-radius: 20px;
-        padding: 3%;
+        padding: 3% 3% 2%;
         margin-top: 8%;
         margin-bottom: 8%;
     }
