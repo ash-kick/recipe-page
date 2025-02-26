@@ -146,10 +146,10 @@ tr + tr {
 @media (min-width: 1440px)
 {
     main {
-        max-width: 45%;
+        max-width: 50%;
         margin: auto;
         border-radius: 20px;
-        padding: 1.5%;
+        padding: 2%;
         margin-top: 8%;
         margin-bottom: 8%;
     }
