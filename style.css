@@ -148,11 +148,12 @@ tr + tr {
         max-width: 47%;
         margin: auto;
         border-radius: 15px;
-        padding: 2%;
+        padding: 1%;
         margin-top: 8%;
         margin-bottom: 8%;
     }
     img {
         border-radius: 15px;
+        margin: 2% auto;
     }
 }
