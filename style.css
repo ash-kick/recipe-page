@@ -68,6 +68,7 @@ h3 {
     font-size: 28px;
     line-height: 12px;
     font-weight: 400;
+    padding-top: 10px;
 }
 
 hr {
@@ -153,7 +154,7 @@ tr + tr {
     img {
         border-radius: 16px;
         margin: 0 auto;
-        width: 91%;
+        width: 93%;
         display: block;
     }
 }
