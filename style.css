@@ -138,12 +138,12 @@ tr + tr {
 @media (min-width: 1440px)
 {
     main {
-        width: 48%;
+        width: 50%;
         margin: auto;
         border-radius: 20px;
         padding: 3% 1% 1%;
-        margin-top: 8%;
-        margin-bottom: 8%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
     img {
         border-radius: 20px;
