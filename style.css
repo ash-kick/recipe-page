@@ -134,6 +134,10 @@ tr + tr {
         padding: 5%;
     }
 
+    img {
+        width: 100%;
+    }
+
     .preparation-time ul li::marker {
         color: hsl(332, 51%, 32%);
     }
@@ -145,7 +149,7 @@ tr + tr {
 @media (min-width: 1440px)
 {
     main {
-        max-width: 47%;
+        width: 47%;
         margin: auto;
         border-radius: 15px;
         padding: 1%;
@@ -154,6 +158,8 @@ tr + tr {
     }
     img {
         border-radius: 15px;
-        margin: 2% auto;
+        margin: auto;
+        width: 90%;
+        display: block;
     }
 }
