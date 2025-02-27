@@ -18,10 +18,6 @@ html, body {
     line-height: 1.8;
 }
 
-div {
-    padding-top: 10px;
-}
-
 main {
     background-color: hsl(0, 0%, 100%);
     display: flex;
@@ -147,10 +143,10 @@ tr + tr {
 @media (min-width: 1440px)
 {
     main {
-        width: 50%;
+        width: 49%;
         margin: auto;
         border-radius: 28px;
-        padding: 3% 1% 0%;
+        padding: 2.9% 1% 0%;
         margin-top: 8.5%;
         margin-bottom: 8.5%;
     }
