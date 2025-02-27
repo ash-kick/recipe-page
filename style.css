@@ -69,7 +69,7 @@ h1 {
 h3 {
     font-family: 'Young Serif', serif;
     color: hsl(14, 45%, 36%);
-    font-size: 26px;
+    font-size: 28px;
     line-height: 12px;
     font-weight: 400;
 }
@@ -108,6 +108,7 @@ table strong {
 
 td {
     padding-left: 30px;
+    padding-bottom: 5px;
 }
 
 tr + tr {
