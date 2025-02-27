@@ -150,7 +150,7 @@ tr + tr {
         width: 50%;
         margin: auto;
         border-radius: 28px;
-        padding: 3% 1% 1%;
+        padding: 3% 1% 0%;
         margin-top: 8.5%;
         margin-bottom: 8.5%;
     }
