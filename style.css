@@ -92,7 +92,7 @@ ol li::marker {
 
 table {
     border-collapse: collapse;
-    text-align: center;
+    text-align: left;
     width: 100%;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -104,18 +104,7 @@ table strong {
 
 tr + tr {
     border-top: .1px solid hsl(30, 18%, 87%); /* Adds a line between rows */
-    line-height: 2;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-    font-family: 'Young Serif', serif;
-    margin: 20px;
-    background-color: hsl(0, 0%, 100%);
-}
-.attribution a {
-    color: hsl(228, 45%, 44%);
+    line-height: 3;
 }
 
 /* Mobile Design */
@@ -152,14 +141,14 @@ tr + tr {
         width: 47%;
         margin: auto;
         border-radius: 15px;
-        padding: 1%;
+        padding: 2% 1%;
         margin-top: 8%;
         margin-bottom: 8%;
     }
     img {
         border-radius: 15px;
         margin: auto;
-        width: 90%;
+        width: 92%;
         display: block;
     }
 }
