@@ -52,7 +52,7 @@ h1 {
 
 .preparation-time {
     background-color: hsl(330, 100%, 98%);
-    padding: 3%;
+    padding: 3% 3% 1%;
     line-height: 2;
     border-radius: 20px;
 }
@@ -92,16 +92,22 @@ ol li::marker {
     color:hsl(14, 45%, 36%)
 }
 
+ol li:before {
+    font-weight: 600;
+}
+
 table {
     border-collapse: collapse;
     text-align: left;
     width: 100%;
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
 
 table strong {
     color:hsl(14, 45%, 36%);
+}
+
+td {
+    padding-left: 30px;
 }
 
 tr + tr {
