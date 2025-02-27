@@ -48,7 +48,7 @@ h1 {
 
 .preparation-time {
     background-color: hsl(330, 100%, 98%);
-    padding: 3% 3% 1%;
+    padding: 4% 3% 1%;
     line-height: 2;
     border-radius: 20px;
 }
@@ -68,7 +68,7 @@ h3 {
     font-size: 28px;
     line-height: 12px;
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 16px;
 }
 
 hr {
@@ -152,7 +152,7 @@ tr + tr {
         margin-bottom: 8.5%;
     }
     img {
-        border-radius: 16px;
+        border-radius: 12px;
         margin: 0 auto;
         width: 93%;
         display: block;
