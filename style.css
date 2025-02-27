@@ -140,13 +140,13 @@ tr + tr {
     main {
         width: 50%;
         margin: auto;
-        border-radius: 20px;
+        border-radius: 28px;
         padding: 3% 1% 1%;
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-top: 9%;
+        margin-bottom: 9%;
     }
     img {
-        border-radius: 20px;
+        border-radius: 16px;
         margin: auto;
         width: 92%;
         display: block;
